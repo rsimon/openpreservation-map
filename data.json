@@ -1,0 +1,111 @@
+[
+  {
+    "category": "Charter Members",
+    "members": [
+      {
+        "organization": "AIT Austrian Institute of Technology",
+        "url": "http://openpreservation.org/about/members/ait-austrian-institute-of-technology/",
+        "location": []
+      },{
+        "organization": "Bibliothèque National de France",
+        "url": "http://openpreservation.org/about/members/bibliotheque-nationale-de-france/",
+        "location": []
+      },{
+        "organization": "British Library",
+        "url": "http://openpreservation.org/about/members/british-library/",
+        "location": []
+      },{
+        "organization": "Goportis",
+        "unit": "National Library of Science and Technology",
+        "url": "http://openpreservation.org/about/members/goportis/",
+        "location": []
+      },{
+        "organization": "Goportis",
+        "unit": "National Library of Medicine",
+        "url": "http://openpreservation.org/about/members/goportis/",
+        "location": []
+      },{
+        "organization": "Goportis",
+        "unit": "National Library of Economics",
+        "url": "http://openpreservation.org/about/members/goportis/",
+        "location": []
+      },{
+        "organization": "JISC",
+        "url": "http://openpreservation.org/about/members/jisc/",
+        "location": []
+      },{
+        "organization": "Det Kongelige Bibliotek",
+        "url": "http://openpreservation.org/about/members/det-kongelige-bibliotek/",
+        "location": []
+      },{
+        "organization": "Koninklijke Bibliotheek",
+        "url": "http://openpreservation.org/about/members/koninklijke-bibliotheek/",
+        "location": []
+      },{
+        "organization": "Latvijas Nacionālā Bibliotēka",
+        "url": "http://openpreservation.org/about/members/latvijas-nacionala-biblioteka/",
+        "location": []
+      },{
+        "organization": "Nationaal Archief",
+        "url": "http://openpreservation.org/about/members/nationaal-archief/",
+        "location": []
+      },{
+        "organization": "Österreichische Nationalbibliothek",
+        "url": "http://openpreservation.org/about/members/osterreichische-nationalbibliothek/",
+        "location": []
+      },{
+        "organization": "Preservica",
+        "url": "http://openpreservation.org/about/members/preservica/",
+        "location": []
+      },{
+        "organization": "Rahvusarhiiv",
+        "url": "http://openpreservation.org/about/members/rahvusarhiiv/",
+        "location": []
+      },{
+        "organization": "Rigsarkivet",
+        "url": "http://openpreservation.org/about/members/rigsarkivet/",
+        "location": []
+      },{
+        "organization": "Statsbiblioteket",
+        "url": "http://openpreservation.org/about/members/statsbiblioteket/",
+        "location": []
+      }
+    ]
+  },{
+    "category": "Affiliate Members",
+    "members": [
+      {
+        "organization": "University of Alabama Libraries",
+        "url": "http://openpreservation.org/about/members/university-of-alabama-libraries/",
+        "location": []
+      },{
+        "organization": "Albert-Ludwigs-Universität Freiburg",
+        "url": "http://openpreservation.org/about/members/albert-ludwigs-universitat-freiburg/",
+        "location": []
+      },{
+        "organization": "Artefactual",
+        "url": "http://openpreservation.org/about/members/artefactual/",
+        "location": []
+      },{
+        "organization": "Biblioteca Nacional de Portugal",
+        "url": "http://openpreservation.org/about/members/biblioteca-nacional-de-portugal/",
+        "location": []
+      },{
+        "organization": "Portico",
+        "url": "http://openpreservation.org/about/members/portico/",
+        "location": []
+      },{
+        "organization": "Poznańskie Centrum Superkomputerowo-Sieciowe",
+        "url": "http://openpreservation.org/about/members/poznanskie-centrum-superkomputerowo-sieciowe/",
+        "location": []
+      },{
+        "organization": "School of Information and Library Science at the University of North Carolina at Chapel Hill",
+        "url": "http://openpreservation.org/about/members/school-of-information-and-library-science-sils-at-the-university-of-north-carolina-at-chapel-hill/",
+        "location": []
+      }
+    ]
+  },{
+    "category": "Software Supporters",
+    "members": []
+  }
+]

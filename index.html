@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="leaflet/leaflet.js"></script>
+    <link rel="stylesheet" type="text/css" href="leaflet/leaflet.css">
+    <style>
+      html, body, #map {
+        height:100%;
+        margin:0;
+        padding:0;
+        width:100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+      (function(){
+        // Temporary hack!!!
+        var load = function() {
+              
+            },
+
+            osm = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+	                  attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+                  }),
+
+            map = new L.Map('map', {
+              center: new L.LatLng(41.893588, 12.488022),
+              zoom: 3,
+              zoomControl: false,                   // layers: 'Obcine:P50007',
+              layers: [ osm ]
+            });
+
+        load();
+      })();
+    </script>
+  </body>
+</html>

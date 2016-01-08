@@ -5,70 +5,70 @@
       {
         "organization": "AIT Austrian Institute of Technology",
         "url": "http://openpreservation.org/about/members/ait-austrian-institute-of-technology/",
-        "location": []
+        "location": [48.2325833333, 16.41375]
       },{
         "organization": "Bibliothèque National de France",
         "url": "http://openpreservation.org/about/members/bibliotheque-nationale-de-france/",
-        "location": []
+        "location": [48.8336111111, 2.37575]
       },{
         "organization": "British Library",
         "url": "http://openpreservation.org/about/members/british-library/",
-        "location": []
+        "location": [51.53, -0.127638888889]
       },{
         "organization": "Goportis",
         "unit": "National Library of Science and Technology",
         "url": "http://openpreservation.org/about/members/goportis/",
-        "location": []
+        "location": [52.3814166667, 9.72002777778]
       },{
         "organization": "Goportis",
         "unit": "National Library of Medicine",
         "url": "http://openpreservation.org/about/members/goportis/",
-        "location": []
+        "location": [50.7268611111, 7.08666666667]
       },{
         "organization": "Goportis",
         "unit": "National Library of Economics",
         "url": "http://openpreservation.org/about/members/goportis/",
-        "location": []
+        "location": [54.3384444444, 10.1558888889]
       },{
         "organization": "JISC",
         "url": "http://openpreservation.org/about/members/jisc/",
-        "location": []
+        "location": [51.5103055556, -0.118777777778]
       },{
         "organization": "Det Kongelige Bibliotek",
         "url": "http://openpreservation.org/about/members/det-kongelige-bibliotek/",
-        "location": []
+        "location": [55.6733888889, 12.5826666667]
       },{
         "organization": "Koninklijke Bibliotheek",
         "url": "http://openpreservation.org/about/members/koninklijke-bibliotheek/",
-        "location": []
+        "location": [52.0816111111, 4.32730555556]
       },{
         "organization": "Latvijas Nacionālā Bibliotēka",
         "url": "http://openpreservation.org/about/members/latvijas-nacionala-biblioteka/",
-        "location": []
+        "location": [56.941, 24.0966111111]
       },{
         "organization": "Nationaal Archief",
         "url": "http://openpreservation.org/about/members/nationaal-archief/",
-        "location": []
+        "location": [52.0807222222, 4.32641666667]
       },{
         "organization": "Österreichische Nationalbibliothek",
         "url": "http://openpreservation.org/about/members/osterreichische-nationalbibliothek/",
-        "location": []
+        "location": [48.2061666667, 16.3666388889]
       },{
         "organization": "Preservica",
         "url": "http://openpreservation.org/about/members/preservica/",
-        "location": []
+        "location": [51.6728611111, -1.26805555556]
       },{
         "organization": "Rahvusarhiiv",
         "url": "http://openpreservation.org/about/members/rahvusarhiiv/",
-        "location": []
+        "location": [58.3655277778, 26.6928055556]
       },{
         "organization": "Rigsarkivet",
         "url": "http://openpreservation.org/about/members/rigsarkivet/",
-        "location": []
+        "location": [55.6753611111, 12.5816944444]
       },{
         "organization": "Statsbiblioteket",
         "url": "http://openpreservation.org/about/members/statsbiblioteket/",
-        "location": []
+        "location": [56.1701111111, 10.1993055556]
       }
     ]
   },{
@@ -77,31 +77,31 @@
       {
         "organization": "University of Alabama Libraries",
         "url": "http://openpreservation.org/about/members/university-of-alabama-libraries/",
-        "location": []
+        "location": [33.2140277778, -87.5391944444]
       },{
         "organization": "Albert-Ludwigs-Universität Freiburg",
         "url": "http://openpreservation.org/about/members/albert-ludwigs-universitat-freiburg/",
-        "location": []
+        "location": [47.9935277778, 7.8455]
       },{
         "organization": "Artefactual",
         "url": "http://openpreservation.org/about/members/artefactual/",
-        "location": []
+        "location": [49.2090833333, -122.914888889]
       },{
         "organization": "Biblioteca Nacional de Portugal",
         "url": "http://openpreservation.org/about/members/biblioteca-nacional-de-portugal/",
-        "location": []
+        "location": [38.7511111111, -9.15258333333]
       },{
         "organization": "Portico",
         "url": "http://openpreservation.org/about/members/portico/",
-        "location": []
+        "location": [40.7080555556, -74.0130277778]
       },{
         "organization": "Poznańskie Centrum Superkomputerowo-Sieciowe",
         "url": "http://openpreservation.org/about/members/poznanskie-centrum-superkomputerowo-sieciowe/",
-        "location": []
+        "location": [52.4118333333, 16.9160833333]
       },{
         "organization": "School of Information and Library Science at the University of North Carolina at Chapel Hill",
         "url": "http://openpreservation.org/about/members/school-of-information-and-library-science-sils-at-the-university-of-north-carolina-at-chapel-hill/",
-        "location": []
+        "location": [35.9111666667, -79.0486666667]
       }
     ]
   },{

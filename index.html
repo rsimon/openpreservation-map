@@ -47,12 +47,13 @@
             },
 
             plotData = function(data) {
-              var member;
+              var member, marker;
 
               for (var i = data.length - 1; i > -1; i--) {
                 for (var j = data[i].members.length - 1; j > -1; j--) {
                   member = data[i].members[j];
-                  L.marker(member.location).addTo(membersLayer);
+                  marker = L.marker(member.location).addTo(membersLayer);
+                  marker.bindPopup('<a href="' + member.url + '" target="_blank">' + member.organization + '</a>');
                 }
               }
 

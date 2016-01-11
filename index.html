@@ -29,6 +29,13 @@
               layers: [ osm ]
             }),
 
+            icon = L.icon({
+              iconUrl: 'marker-blue.png',
+              iconSize: [26, 39],
+              iconAnchor: [13, 39],
+              popupAnchor: [0, -41]
+            }),
+
             membersLayer = L.featureGroup().addTo(map),
 
             load = function() {
@@ -52,7 +59,7 @@
               for (var i = data.length - 1; i > -1; i--) {
                 for (var j = data[i].members.length - 1; j > -1; j--) {
                   member = data[i].members[j];
-                  marker = L.marker(member.location).addTo(membersLayer);
+                  marker = L.marker(member.location, { icon: icon }).addTo(membersLayer);
                   marker.bindPopup('<a href="' + member.url + '" target="_blank">' + member.organization + '</a>');
                 }
               }

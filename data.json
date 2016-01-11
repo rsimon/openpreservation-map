@@ -1,6 +1,7 @@
 [
   {
     "category": "Charter Members",
+    "icon": "marker-green.png",
     "members": [
       {
         "organization": "AIT Austrian Institute of Technology",
@@ -73,6 +74,7 @@
     ]
   },{
     "category": "Affiliate Members",
+    "icon": "marker-blue.png",
     "members": [
       {
         "organization": "University of Alabama Libraries",
@@ -106,6 +108,7 @@
     ]
   },{
     "category": "Software Supporters",
+    "icon": "marker-pink.png",
     "members": []
   }
 ]

@@ -11,6 +11,10 @@
         padding:0;
         width:100%;
       }
+
+      .member-unit {
+        color:#727272;        
+      }
     </style>
   </head>
   <body>
@@ -31,15 +35,25 @@
             }),
 
             // Custom icon: TODO create three differently coloured versions
-            icon = L.icon({
-              iconUrl: 'marker-blue.png',
-              iconSize: [26, 39],
-              iconAnchor: [13, 39],
-              popupAnchor: [0, -41]
-            }),
+            iconProps = {
+              shadowUrl: 'marker-shadow.png',
+              iconSize: [28, 40],
+              shadowSize: [37, 40],
+              iconAnchor: [14, 40],
+              shadowAnchor: [14, 40],
+              popupAnchor: [0, -42]
+            },
 
             // A common layer group, so we can fit the map after load
             membersLayer = L.featureGroup().addTo(map),
+
+            // Creates an icon with all the base properties, but configurable URL
+            createIcon = function(url) {
+              // No nice way of cloning in Javascript...
+              var icon = JSON.parse(JSON.stringify(iconProps));
+              icon.iconUrl = url;
+              return L.icon(icon);
+            }
 
             // Loads the JSON
             load = function() {
@@ -59,13 +73,19 @@
 
             // Plots the data
             plotData = function(data) {
-              var member, marker;
+              var member, marker, icon, popupText;
 
               for (var i = data.length - 1; i > -1; i--) {
+                icon = createIcon(data[i].icon);
                 for (var j = data[i].members.length - 1; j > -1; j--) {
                   member = data[i].members[j];
                   marker = L.marker(member.location, { icon: icon }).addTo(membersLayer);
-                  marker.bindPopup('<a href="' + member.url + '" target="_blank">' + member.organization + '</a>');
+                  popupText = (member.unit) ?
+                    '<a href="' + member.url + '" target="_blank">' + member.organization +
+                      '</a><br/><span class="member-unit">' + member.unit + '</span>' :
+                    '<a href="' + member.url + '" target="_blank">' + member.organization + '</a>'
+
+                  marker.bindPopup(popupText);
                 }
               }
 

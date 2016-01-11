@@ -17,18 +17,20 @@
     <div id="map"></div>
     <script>
       (function(){
-        // Would normally do that with jQuery, but not worth the extra dependency
+            // Base layer
         var osm = L.tileLayer('http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
-	                  attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, Tiles courtesy of <a href="http://hot.openstreetmap.org/" target="_blank">Humanitarian OpenStreetMap Team</a>'
-                  }),
+	            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, Tiles courtesy of <a href="http://hot.openstreetmap.org/" target="_blank">Humanitarian OpenStreetMap Team</a>'
+            }),
 
+            // The map
             map = new L.Map('map', {
               center: new L.LatLng(41.893588, 12.488022),
               zoom: 3,
-              zoomControl: false,                   // layers: 'Obcine:P50007',
+              zoomControl: false,
               layers: [ osm ]
             }),
 
+            // Custom icon: TODO create three differently coloured versions
             icon = L.icon({
               iconUrl: 'marker-blue.png',
               iconSize: [26, 39],
@@ -36,8 +38,10 @@
               popupAnchor: [0, -41]
             }),
 
+            // A common layer group, so we can fit the map after load
             membersLayer = L.featureGroup().addTo(map),
 
+            // Loads the JSON
             load = function() {
               var xhr = new XMLHttpRequest();
 
@@ -53,6 +57,7 @@
               xhr.send();
             },
 
+            // Plots the data
             plotData = function(data) {
               var member, marker;
 
